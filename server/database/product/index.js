@@ -23,4 +23,4 @@ const ProductSchema = new mongoose.Schema({
   reviews: {},
 });
 
-export const ProductModel = mongoose.model("Product", ProductSchema);
+export const ProductModel = mongoose.model("Products", ProductSchema);
